@@ -1,7 +1,7 @@
 unzip -a $1 -d Qwerty > /dev/null
-if [ -f Qwerty/tracker.sh ]; then
-	if [ -f Qwerty/peer.sh ]; then
-		echo "Found tracker.sh and peer.sh"
+if [ -f Qwerty/server.sh ]; then
+	if [ -f Qwerty/client.sh ]; then
+		echo "Found server.sh and client.sh"
 	fi
 fi
 rm -rf Qwerty
