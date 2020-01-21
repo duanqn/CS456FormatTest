@@ -1,0 +1,4 @@
+1. Make sure your ZIP file is in the same folder as this script
+2. Run `./test.sh <ZIP-filename>`
+3. If your file format is correct, you should see "Found ..." in standard output. If there is no output then the file format is incorrect.
+
